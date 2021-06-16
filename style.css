@@ -1,0 +1,21 @@
+html{
+	background-color: #000;
+
+	overflow: hidden;
+}
+div{
+	background: url('https://sun9-67.userapi.com/impg/8OR9Mft9AR2LZWXW5nlEV1g0dr6ZVDNdvGbzsA/9KO9tR_4HLU.jpg?size=800x767&quality=96&sign=4359e0f234a643cb57873d8b6316e269&type=album') no-repeat;
+	background-size: cover;
+	background-color: rgb(0, 150, 0);
+	background-blend-mode: difference;
+
+	height: 100%;
+	width: 650px;
+
+	position: absolute;
+	top:  50%;
+	left:  50%;
+	transform: translate(-50%, -50%) ;
+
+	transition: all 1s ease ;
+}
