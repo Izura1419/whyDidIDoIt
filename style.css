@@ -4,13 +4,14 @@ html{
 	overflow: hidden;
 }
 div{
-	background: url('https://sun9-67.userapi.com/impg/8OR9Mft9AR2LZWXW5nlEV1g0dr6ZVDNdvGbzsA/9KO9tR_4HLU.jpg?size=800x767&quality=96&sign=4359e0f234a643cb57873d8b6316e269&type=album') no-repeat;
-	background-size: cover;
+	background: url('https://sun9-10.userapi.com/s/v1/if2/K_BlZI3cZI7YBkqJDpIGuOXyJNE2utwjGUYHQHirZYvGfPKnmzPpWcJm6GPJof4ql_VH4qIO7qFqVbF-TiB3ieK6.jpg?size=737x618&quality=96&type=album') no-repeat;
+	background-size: contain;
+	background-position: center;
 	background-color: rgb(0, 150, 0);
 	background-blend-mode: difference;
 
 	height: 100%;
-	width: 650px;
+	width: 100%;
 
 	position: absolute;
 	top:  50%;
