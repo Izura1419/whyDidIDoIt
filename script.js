@@ -4,7 +4,7 @@ const div = document.querySelector('div');
 let getRand = (min,max) => {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-//массивы со свойствами 
+//массивы со свойствами
 const stylesModes = ['overlay', 'soft-light', 'hard-light', 'darken', 'multiply', 'color-burn', 'lighten', 'screen', 'color-dodge', 'difference', 'exclusion', 'hue', 'saturation', 'color', 'luminosity'];
 const stylesPath = ['circle', 'ellipse', 'polygon'];
 
@@ -13,7 +13,7 @@ setInterval(() => {
 	//цвета и режим наложения
 	let colorBack = `rgb(${getRand(0,255)},${getRand(0,255)},${getRand(0,255)})`;
 
-	let oneOfModes = getRand(0,14);	
+	let oneOfModes = getRand(0,14);
 	let mode = stylesModes[oneOfModes];
 
 	div.style.backgroundColor = colorBack;
