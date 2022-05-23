@@ -2,6 +2,8 @@ html{
 	background-color: #000;
 
 	overflow: hidden;
+
+	cursor: pointer;
 }
 div{
 	background: url('https://sun9-10.userapi.com/s/v1/if2/K_BlZI3cZI7YBkqJDpIGuOXyJNE2utwjGUYHQHirZYvGfPKnmzPpWcJm6GPJof4ql_VH4qIO7qFqVbF-TiB3ieK6.jpg?size=737x618&quality=96&type=album') no-repeat;
@@ -18,5 +20,5 @@ div{
 	left:  50%;
 	transform: translate(-50%, -50%) ;
 
-	transition: all 1s ease ;
+	transition: all 500ms ease ;
 }
